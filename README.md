@@ -1,7 +1,7 @@
 
-# Systemtapped
+# Systemtappd
 
-Webbläsarplugin för Systembolaget. Enkel sökning av nuvarande produktsida i webbläsaren i ny flik på Untapped. Pluginet är endast testat i Microsoft Edge men bör fungera i Chrome och möjligtvis även Firefox med lite småjusteringar.
+Webbläsarplugin för Systembolaget. Enkel sökning av nuvarande produktsida i webbläsaren i ny flik på Untappd. Pluginet är endast testat i Microsoft Edge men bör fungera i Chrome och möjligtvis även Firefox med lite småjusteringar.
 
 Exempel på användning i Edge:
 
