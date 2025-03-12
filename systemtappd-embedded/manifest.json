@@ -1,0 +1,21 @@
+{
+  "manifest_version": 3,
+  "name": "systemtappd",
+  "version": "0.1",
+  "description": "Plugin för Systembolaget och Untappd.",
+  "permissions": ["activeTab"],
+  "host_permissions": [
+    "https://*/*"
+  ],
+  "icons": {
+    "16": "img/icon.png",
+    "48": "img/icon.png",
+    "128": "img/icon.png"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://www.systembolaget.se/*"],
+      "js": ["embedded.js"]
+    }
+  ]
+}
