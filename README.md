@@ -1,5 +1,5 @@
 # Systemtappd  
-Webbläsarplugin för Systembolaget och Untappd. Enkel sökning av nuvarande produktsida i webbläsaren genom att öppna sökning i Untappd. Plugin endast testat i Microsoft Edge men bör även fungera i Chrome och möjligtvis även Firefox med lite småjusteringar.  
+Webbläsarplugin för Systembolaget och Untappd. Enkel sökning av nuvarande produktsida i webbläsaren genom att öppna sökning i Untappd. Plugin endast testat i Microsoft Edge men bör även fungera i Chrome och möjligtvis även Firefox med lite småjusteringar. Finns nu även som knapp inbakat på hemsidan istället för popup via toolbar.  
 ### Exempel:
 - Embedded:
 ![charlis](https://github.com/user-attachments/assets/efee4c26-7077-4702-8dbf-34ff68274e82)
