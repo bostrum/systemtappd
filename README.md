@@ -8,8 +8,13 @@ Webbläsarplugin för Systembolaget och Untappd. Enkel sökning av nuvarande pro
 - Resultat:  
 ![result](https://github.com/user-attachments/assets/6df85e94-c77c-4c42-9abf-0567285a8e1b)
 ---
+### Komma igång:
+1. Ladda ner .zip och packa upp eller klona detta repository.
+2. Följ Microsoft's instruktion för extension sideloading [här](https://learn.microsoft.com/en-us/microsoft-edge/extensions-chromium/getting-started/extension-sideloading).
+3. Skål!
+
 ### Framtida funktioner:
 - Bädda in dryckens betyg och antalet recensioner.  
 - Skifta mellan popup+knapp och en-klick-sökning.  
 - (?) Bädda in antalet vänner som checkat in den tidigare. Med länk till vänners incheckningar.  
-- (?) Stöd för sökning i Vivino
+- (?) Stöd för sökning i Vivino  
