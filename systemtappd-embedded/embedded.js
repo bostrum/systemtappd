@@ -72,15 +72,22 @@ function addButton() {
     }
 }
 
-const observer = new MutationObserver((mutations, obs) => {
-    const targetElement = document.querySelector('.css-9egk76.enbz1310');
-    if (targetElement) {
-        addButton();
-        obs.disconnect();
-    }
+// wait until standard button is loaded
+function waitForElement(selector, callback) {
+    const intervalId = setInterval(() => {
+        const targetElement = document.querySelector(selector);
+        if (targetElement) {
+            clearInterval(intervalId);
+            callback(targetElement);
+        }
+    }, 100);
+}
+
+// history navigation back/forward
+window.addEventListener('popstate', function() {
+    console.log('SYSTEMTAPPD: Page history changed, reinitializing button');
+    waitForElement('.css-9egk76.enbz1310', addButton);
 });
 
-observer.observe(document, {
-    childList: true,
-    subtree: true
-});
+// initial check and add
+waitForElement('.css-9egk76.enbz1310', addButton);
